@@ -1,0 +1,29 @@
+body {
+  background: #f7d6e0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin: 15px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+.letter {
+  font-size: 60px;
+}
