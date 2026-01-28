@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>hey R</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="screen1" class="screen">
+  <h1>hey, R</h1>
+  <button onclick="next(1)">click</button>
+</div>
+
+<div id="screen2" class="screen hidden">
+  <div class="letter">✉️</div>
+  <button onclick="next(2)">open</button>
+</div>
+
+<div id="screen3" class="screen hidden">
+  <p>this is random, but i wanted to ask you something</p>
+  <button onclick="next(3)">continue</button>
+</div>
+
+<div id="screen4" class="screen hidden">
+  <h2>will you be my valentine?</h2>
+  <button onclick="yes()">yes 💗</button>
+  <button onclick="no()">not really 😅</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
